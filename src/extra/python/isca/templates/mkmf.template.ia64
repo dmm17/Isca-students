@@ -1,7 +1,7 @@
 # template for the Intel fortran compiler
 # typical use with mkmf
 # mkmf -t template.ifc -c"-Duse_libMPI -Duse_netCDF" path_names /usr/local/include
-CPPFLAGS = -I/usr/local/include
+CPPFLAGS = -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include
 NETCDF_LIBS = `nc-config --libs`
 
 # FFLAGS:
