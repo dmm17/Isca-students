@@ -1,0 +1,48 @@
+modules loaded
+
+Currently Loaded Modules:
+  1) build/gcc-7.2.0   2) languages/anaconda2/5.0.1   3) tools/git/2.18.0
+
+2018-11-07 10:09:10,036 - isca - INFO - RRTM compilation disabled.
+2018-11-07 10:09:10,173 - isca - INFO - Writing path_names to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/held_suarez/path_names'
+2018-11-07 10:09:10,183 - isca - INFO - Running compiler
+2018-11-07 10:09:10,304 - isca - INFO - loadmodules for Bluecrystal 4 machines
+2018-11-07 10:09:10,476 - isca - INFO - Currently Loaded Modules:
+2018-11-07 10:09:10,476 - isca - INFO - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-11-07 10:09:10,476 - isca - INFO - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-11-07 10:09:10,476 - isca - INFO - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-11-07 10:09:10,476 - isca - INFO - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-11-07 10:09:10,476 - isca - INFO - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-11-07 10:09:10,523 - isca - INFO - /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/held_suarez/path_names
+2018-11-07 10:09:10,928 - isca - INFO - .......................................................................................................................... Makefile is ready.
+2018-11-07 10:09:11,036 - isca - INFO - make: Nothing to be done for `all'.
+2018-11-07 10:09:11,133 - isca - INFO - make: `held_suarez.x' is up to date.
+2018-11-07 10:09:11,135 - isca - INFO - Compilation complete.
+2018-11-07 10:09:11,156 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/held_suarez_default/run'
+2018-11-07 10:09:11,159 - isca - WARNING - Data for run 1 already exists but overwrite_data is False. Stopping.
+2018-11-07 10:09:11,175 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/held_suarez_default/run'
+2018-11-07 10:09:11,176 - isca - WARNING - Data for run 2 already exists but overwrite_data is False. Stopping.
+2018-11-07 10:09:11,191 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/held_suarez_default/run'
+2018-11-07 10:09:11,192 - isca - WARNING - Data for run 3 already exists but overwrite_data is False. Stopping.
+2018-11-07 10:09:11,208 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/held_suarez_default/run'
+2018-11-07 10:09:11,227 - isca - WARNING - Data for run 4 already exists but overwrite_data is False. Stopping.
+2018-11-07 10:09:11,242 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/held_suarez_default/run'
+2018-11-07 10:09:11,247 - isca - WARNING - Data for run 5 already exists but overwrite_data is False. Stopping.
+2018-11-07 10:09:11,262 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/held_suarez_default/run'
+2018-11-07 10:09:11,263 - isca - WARNING - Data for run 6 already exists but overwrite_data is False. Stopping.
+2018-11-07 10:09:11,278 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/held_suarez_default/run'
+2018-11-07 10:09:11,279 - isca - WARNING - Data for run 7 already exists but overwrite_data is False. Stopping.
+2018-11-07 10:09:11,294 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/held_suarez_default/run'
+2018-11-07 10:09:11,295 - isca - WARNING - Data for run 8 already exists but overwrite_data is False. Stopping.
+2018-11-07 10:09:11,310 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/held_suarez_default/run'
+2018-11-07 10:09:11,312 - isca - WARNING - Data for run 9 already exists but overwrite_data is False. Stopping.
+2018-11-07 10:09:11,329 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/held_suarez_default/run'
+2018-11-07 10:09:11,330 - isca - WARNING - Data for run 10 already exists but overwrite_data is False. Stopping.
+2018-11-07 10:09:11,344 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/held_suarez_default/run'
+2018-11-07 10:09:11,346 - isca - WARNING - Data for run 11 already exists but overwrite_data is False. Stopping.
+2018-11-07 10:09:11,361 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/held_suarez_default/run'
+2018-11-07 10:09:11,362 - isca - WARNING - Data for run 12 already exists but overwrite_data is False. Stopping.
+
+real	0m1.651s
+user	0m0.947s
+sys	0m0.443s
