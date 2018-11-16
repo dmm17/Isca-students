@@ -140,7 +140,7 @@ exp.namelist = namelist = Namelist({
 
     'constants_nml': {
         #'orbital_period': 59166360,
-        #'solar_const':589.0,
+        'solar_const':589.0,
         #'radius':3396.0e3,
         #'rdgas':192.0,
         #'kappa':0.22727,

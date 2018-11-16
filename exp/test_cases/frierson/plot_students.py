@@ -10,14 +10,14 @@ path = os.environ['GFDL_DATA']
 
 # Open control data
 dataset_control = xar.open_dataset(path + '/frierson1/run0023/atmos_monthly.nc')
-dataset_exp = xar.open_dataset(path + '/frierson_rotate_slow/run0023/atmos_monthly.nc')
+dataset_exp = xar.open_dataset(path + '/frierson2/run0023/atmos_monthly.nc')
 
 #dataset['land_mask'].mean('lon').plot()
 plt.figure('Zonal Wind Control')
-dataset_control['ucomp'].mean('lon')[0,:,:].plot.contourf(cmap = 'hot')
+dataset_control['ucomp'].mean('lon')[0,:,:].plot.contourf(cmap = 'hot',yincrease=False)
 
 plt.figure('Zonal Wind Experiment')
-dataset_exp['ucomp'].mean('lon')[0,:,:].plot.contourf(cmap = 'hot')
+dataset_exp['ucomp'].mean('lon')[0,:,:].plot.contourf(cmap = 'hot',yincrease=False)
 
 ucomp_diff = dataset_control['ucomp'].values - dataset_exp['ucomp'].values
 lat =  dataset_control['lat'].values
@@ -33,14 +33,13 @@ plt.xlabel('Latitude')
 
 
 
-
 # zonal temperature
 
 plt.figure('Zonal Temperature Control')
-dataset_control['temp'].mean('lon')[0,:,:].plot.contourf(cmap = 'hot')
+dataset_control['temp'].mean('lon')[0,:,:].plot.contourf(cmap = 'hot',yincrease=False)
 
 plt.figure('Zonal Temperature Experiment')
-dataset_exp['temp'].mean('lon')[0,:,:].plot.contourf(cmap = 'hot')
+dataset_exp['temp'].mean('lon')[0,:,:].plot.contourf(cmap = 'hot',yincrease=False)
 
 tcomp_diff = dataset_control['temp'].values - dataset_exp['temp'].values
 lat =  dataset_control['lat'].values
@@ -59,10 +58,10 @@ plt.xlabel('Latitude')
 # Meridional wind
 
 plt.figure('Meridional Wind Control')
-dataset_control['vcomp'].mean('lon')[0,:,:].plot.contourf(cmap = 'bwr')
+dataset_control['vcomp'].mean('lon')[0,:,:].plot.contourf(cmap = 'bwr',yincrease=False)
 
 plt.figure('Meridional Wind Experiment')
-dataset_exp['vcomp'].mean('lon')[0,:,:].plot.contourf(cmap = 'bwr')
+dataset_exp['vcomp'].mean('lon')[0,:,:].plot.contourf(cmap = 'bwr',yincrease=False)
 
 vcomp_diff = dataset_control['vcomp'].values - dataset_exp['vcomp'].values
 lat =  dataset_control['lat'].values
